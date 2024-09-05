@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 
+// All the function name has to be the same (GET, POST, PUT etc)
+
 export const GET = async () => {
   return NextResponse.json({ message: "Hello from server" });
 };
